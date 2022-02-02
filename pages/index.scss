@@ -1,0 +1,40 @@
+.Hero{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    height: 30vw;
+    place-items: center;
+
+    &__logo{
+        position: relative;
+        place-self: normal;
+    }
+
+
+    &__text{        
+        padding: 2rem;
+        h1{
+            font-size: 6rem;
+            margin-top: 0;
+        }
+
+        h2{
+            color: $primary;
+            margin: 0;
+        }
+
+        p{
+            max-width: 55ch;
+            line-height: 3rem;
+        }
+    }
+
+    @media(max-width:768px){
+        display: flex;
+    }
+}
+
+.Cards{
+    display: flex;
+    flex-wrap: wrap;
+}

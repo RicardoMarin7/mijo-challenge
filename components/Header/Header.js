@@ -14,12 +14,17 @@ const Header = () => {
 
             <nav className='Navigation'>
                 <Link href='/'>
-                    <a>Home</a>
+                    <a>Inicio</a>
                 </Link>
-{/* 
-                <Link>
-                    <a>Products</a>
-                </Link> */}
+
+                <Link href='/'>
+                    <a>Productos</a>
+                </Link>
+
+                <Link href='/'>
+                    <a>Carrito</a>
+                </Link>
+
             </nav>
         </header>
     );
