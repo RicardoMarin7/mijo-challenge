@@ -17,11 +17,11 @@ const Header = () => {
                     <a>Inicio</a>
                 </Link>
 
-                <Link href='/'>
+                <Link href='/productos'>
                     <a>Productos</a>
                 </Link>
 
-                <Link href='/'>
+                <Link href='/carrito-de-compras'>
                     <a>Carrito</a>
                 </Link>
 

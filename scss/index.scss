@@ -2,7 +2,18 @@
 @import './colors.scss';
 
 /************ Components *******************/
-@import '../components/Header/Header.scss';
+    /* Header */
+    @import '../components/Header/Header.scss';
+
+    /* Footer*/
+    @import '../components/Footer/Footer.scss';
+
+    /* LandingCard*/
+    @import '../components/LandingCard/LandingCard.scss';
+
+    /* Product*/
+    @import '../components/Product/Product.scss';
+
 
 /*************** Pages *******************/
 @import '../pages/index.scss';

@@ -11,8 +11,9 @@ export const getProducts = async () =>{
             }
         })
 
-        console.log( await response.json())
+        return await response.json()
     } catch (error) {
         console.log(error)
+        return []
     }
 }

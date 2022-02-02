@@ -1,0 +1,32 @@
+.Product{
+    border: 1px solid $primary;
+    border-radius: .8rem;
+    padding: 2rem;
+    background-color: $background-secondary;
+
+    &__id{
+        color: $font-secondary;
+        margin: 0;
+        margin-top: 1rem;
+    }
+
+    &__name{
+        margin: .5rem 0;
+    }
+
+    &__price{
+        font-size: 2rem;
+        color: $primary;
+    }   
+
+    &__actions{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        gap: 1rem;
+        margin-top: 1rem;
+
+        .ui.input > input{
+            background-color: $background-primary;
+        }
+    }
+}

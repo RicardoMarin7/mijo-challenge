@@ -11,14 +11,18 @@ const LandingCard = (props) => {
     } = props
 
     return (
-        <div className="LandingCard">
-            <Icon name={iconName} className={`LandingCard__icon ${highlighted ? 'LandingCard__icon--Highlighted' : ''}`}/>
+        <div className={`LandingCard ${highlighted ? 'LandingCard--highlighted' : ''}`}>
+            <Icon 
+                name={iconName} 
+                className={`LandingCard__icon ${highlighted ? 'LandingCard__icon--highlighted' : ''}`}
+                size='huge'
+            />
             <h3
-                className={`LandingCard__title ${highlighted ? 'LandingCard__title--Highlighted' : ''}`}
+                className={`LandingCard__title ${highlighted ? 'LandingCard__title--highlighted' : ''}`}
             >{title}</h3>
             
             <p
-                className={`LandingCard__description ${highlighted ? 'LandingCard__description--Highlighted' : ''}`}
+                className={`LandingCard__description ${highlighted ? 'LandingCard__description--highlighted' : ''}`}
             >{description}</p>
         </div>
     );

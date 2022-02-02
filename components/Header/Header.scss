@@ -17,6 +17,11 @@
             font-family: 'Yellowtail';
         }
     }
+
+
+    @media(max-width:768px){
+        border-bottom: 1px solid $font-secondary;
+    }
 }
 
 .Navigation{
@@ -54,7 +59,11 @@
             background-color: transparent;           
             
         }
-    }    
+    }
+
+    @media(max-width:768px){
+        display: none;
+    }
 }
 
 .ui.button.Cart{

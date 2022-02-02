@@ -1,0 +1,15 @@
+.Footer{
+
+    &__info{
+        display: flex;
+        flex-direction: column;
+
+
+        .ui.label{
+            font-size: 1.4rem;
+            width: fit-content;
+            background-color: $background-primary;
+            color: $font-secondary;
+        }
+    }
+}

@@ -21,9 +21,25 @@ const Home = () => {
         </div>
 
         <div className="Cards">
-          <LandingCard />
-          <LandingCard />
-          <LandingCard />
+          <LandingCard 
+            iconName = 'boxes'
+            title = 'Diseño Responsivo'
+            description = 'Sin limites, acccede desde cualquier dispositivo.'
+          />
+          
+          <LandingCard 
+            highlighted
+            iconName = 'react'
+            title = 'Desarrollado en React y Next.JS'
+            description = 'Desarrollo ágil, rápido y con renderizado del lado del servidor gracias a Next.Js'
+          />
+
+          <LandingCard 
+            iconName = 'sass'
+            title = 'Css con superpoderes'
+            description = 'Sass añade más y mejores herramientas a CSS'
+          />
+
         </div>
       </main>
     </BasicLayout>
