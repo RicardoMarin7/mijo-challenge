@@ -1,0 +1,33 @@
+.Cart{
+    background-color: $background-secondary!important;
+    td > h3{
+        color: $primary;
+    }
+
+    td > p{
+        color: $font-secondary;
+    }
+
+    &__header{
+        tr{
+            th{
+                background-color: $background-secondary!important;                
+                & > *{
+                    color: $primary;
+                }
+            }
+        }
+    }
+
+    &__quantity{
+        width: 15rem;
+
+        .ui.input{
+            width:100%;
+
+            input{
+                background-color: $background-primary;
+            }
+        }
+    }
+}

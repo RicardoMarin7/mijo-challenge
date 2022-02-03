@@ -10,19 +10,19 @@ const Footer = () => {
                     <Icon name='user' /> Ricardo Marin
                 </Label>
 
-                <a href='https://www.linkedin.com/in/ricardomarint' target='_blank'>
+                <a href='https://www.linkedin.com/in/ricardomarint' target='_blank' rel='noreferrer noopener'>
                     <Label>
                         <Icon name='linkedin' /> /ricardomarint
                     </Label>
                 </a>
 
-                <a href='https://github.com/RicardoMarin7' target='_blank'>
+                <a href='https://github.com/RicardoMarin7' target='_blank' rel='noreferrer noopener'>
                     <Label>
                         <Icon name='github' /> /RicardoMarin7
                     </Label>
                 </a>
 
-                <a href='mailto:ricardo_marin97@hotmail.com' target='_blank'>
+                <a href='mailto:ricardo_marin97@hotmail.com' target='_blank'rel='noreferrer noopener'>
                     <Label>
                         <Icon name='mail' /> ricardo_marin97@hotmail.com
                     </Label>
