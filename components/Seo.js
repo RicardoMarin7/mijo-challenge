@@ -30,7 +30,7 @@ const Seo = (props) => {
 Seo.defaultProps ={
     title: 'Mijo Challenge',
     description: 'Página creada para la prueba técnica de mijo! brands',
-    image: 'https://mijobrands.com/wp-content/uploads/2018/03/logo-mijobrands.svg',
+    image: 'https://i.imgur.com/Yq1Puw9.png',
     url: 'https://mijo-challenge.vercel.app/'
 }
 
