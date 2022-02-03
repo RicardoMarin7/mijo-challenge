@@ -3,6 +3,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 1rem 0;
+    margin-bottom: 1rem;
 
     &__logo{
         display: inline-block;
@@ -29,7 +30,7 @@
         &__mobile.ui.button{
             display: inline-block;
             background-color: $background-primary;
-            color: $primary;
+            color: $font-secondary;
             padding: 0;
             margin: 0;
 
@@ -94,7 +95,7 @@
         background-color: $background-secondary;
 
         a{
-            color: $primary;
+            color: $font-secondary;
             margin-left: 2rem!important;
         }
 

@@ -6,6 +6,7 @@
 
     &--disabled{
         filter: grayscale(.7);
+        opacity: .7;
     }
 
     &__name{

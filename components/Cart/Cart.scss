@@ -1,14 +1,14 @@
 .Cart{
     background-color: $background-secondary!important;
     td > h3{
-        color: $primary;
+        color: $font;
     }
 
     td > p{
         color: $font-secondary;
     }
 
-    &__header{
+    &__header, &__footer{
         tr{
             th{
                 background-color: $background-secondary!important;                
@@ -28,6 +28,21 @@
             input{
                 background-color: $background-primary;
             }
+        }
+    }
+
+    &__delete.ui.button{
+        display: inline-block;
+        width: 100%;
+        background-color: $background-secondary;
+        color: $primary;
+        padding: 0;
+        margin: 0;
+
+        .icon{
+            font-size: 1.5em;
+            margin: 0;
+            padding: 0;
         }
     }
 }
