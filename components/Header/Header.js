@@ -1,7 +1,14 @@
-import React from 'react'
+import React, {useState} from 'react'
 import Link from 'next/link'
+import { Button, Icon } from 'semantic-ui-react'
 
 const Header = () => {
+    const [toggleMenu, setToggleMenu] = useState(false);
+
+    const handleToggle = () => {
+        setToggleMenu(!toggleMenu)
+    }
+
     return (
         <header className="Header">
             <div className="Header__logo">
@@ -12,7 +19,7 @@ const Header = () => {
                 </Link>
             </div>
 
-            <nav className='Navigation'>
+            <nav className={`Navigation ${toggleMenu ? 'Navigation--active': ''}`}>
                 <Link href='/'>
                     <a>Inicio</a>
                 </Link>
@@ -23,9 +30,12 @@ const Header = () => {
 
                 <Link href='/carrito-de-compras'>
                     <a>Carrito</a>
-                </Link>
-
+                </Link>                
             </nav>
+
+            <Button className="Header__mobile" onClick={handleToggle}>
+                <Icon name='bars'/>
+            </Button>
         </header>
     );
 }
