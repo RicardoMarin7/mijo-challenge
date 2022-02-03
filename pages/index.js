@@ -2,11 +2,15 @@ import React, { useEffect } from 'react'
 import BasicLayout from '../layouts/BasicLayout'
 import Image from 'next/image'
 import LandingCard from '../components/LandingCard'
+import Seo from '../components/Seo'
 
 const Home = () => {
 
   return (
     <BasicLayout>
+      <Seo
+        title='Home'
+      />
       <main>
         <div className="Hero">
           <div className="Hero__logo">

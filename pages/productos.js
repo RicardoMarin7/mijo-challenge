@@ -3,6 +3,7 @@ import BasicLayout from '../layouts/BasicLayout';
 import { getProducts } from '../utils/fetch'
 import { Grid } from 'semantic-ui-react';
 import Product from '../components/Product/Product';
+import Seo from '../components/Seo';
 
 const Products = () => {
     const [products, setProducts] = useState([]);
@@ -24,6 +25,9 @@ const Products = () => {
 
     return (
         <BasicLayout>
+            <Seo
+                title='Productos'
+            />
             <Grid>
                 {products.length > 0 ? (
                     products.map( product => (
